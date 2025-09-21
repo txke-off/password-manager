@@ -13,6 +13,7 @@ React + FastAPI password manager with client-side encryption (AES-GCM, PBKDF2).
 ---
 
 ## Project structure
+```
 .
 ├── backend/ # FastAPI server
 │ ├── main.py # endpoints and API-routes
@@ -28,3 +29,4 @@ React + FastAPI password manager with client-side encryption (AES-GCM, PBKDF2).
 │ ├── EncryptionContext.tsx
 │ └── App.tsx
 └── index.html
+```
