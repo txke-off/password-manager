@@ -23,10 +23,10 @@ React + FastAPI password manager with client-side encryption (AES-GCM, PBKDF2).
 │ └── dependencies.py # dependencies for main.py
 │
 └── frontend/ # React + Tailwind
-├── src/
-│ ├── components/ # UI-components (Dashboard, Login, UnlockScreen etc.)
-│ ├── crypto.ts # WebCrypto (AES-GCM, PBKDF2)
-│ ├── EncryptionContext.tsx
-│ └── App.tsx
-└── index.html
+  ├── src/
+  │ ├── components/ # UI-components (Dashboard, Login, UnlockScreen etc.)
+  │ ├── crypto.ts # WebCrypto (AES-GCM, PBKDF2)
+  │ ├── EncryptionContext.tsx
+  │ └── App.tsx
+  └── index.html
 ```
