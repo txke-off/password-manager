@@ -27,6 +27,8 @@ React + FastAPI password manager with client-side encryption (AES-GCM, PBKDF2).
   │ ├── components/ # UI-components (Dashboard, Login, UnlockScreen etc.)
   │ ├── crypto.ts # WebCrypto (AES-GCM, PBKDF2)
   │ ├── EncryptionContext.tsx
-  │ └── App.tsx
+  │ ├── App.tsx
+  │ ├── main.tsx
+  │ └── index.css
   └── index.html
 ```
